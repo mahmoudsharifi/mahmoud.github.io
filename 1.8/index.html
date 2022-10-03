@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+
+<meta charset="utf-8">
+
+	<title>M.Sharifi - Portfolio</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon"  href="./img/favicon.png">
+
+	<!-- Code um alle default einstellungen vom browser zu bereinigen wie zB rand und font etc muss über dem Code zum Verlinken stehen-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<!-- import der font-->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap" rel="stylesheet">
+
+	<!-- aus dem Skript bei html rein um es mit css zu verknüpfen -->
+	<link rel="stylesheet" type="text/css" href="css/style.production.css">
+	<!-- siehe href="css/styles.css" ORDNER/DATEI-->
+</head>
+<body>
+	<header class="page-header">
+		<!-- Add my logo here -->
+		<!-- <img src="http://via.placeholder.com/200x70" alt="logo" class:"website__logo"> im skript page-header__item ich navigation__logo-->
+		<img src = " img/sam.jpg " class="profile__portrait" alt= "sam portrait alt=" width="300" height="250">
+
+  <nav class="main-navigation page-header__item">
+
+	 <ul role="menubar" class="navigation-list">
+			<!-- hashtag (<a href="#">Home</a>) is a placeholder for the link -->
+     <li role="presentation">
+			 <a href="index.html" role="menuitem" class="navigation-list__item--active">Home</a>
+		 </li>
+     <li role="presentation">
+			 <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
+		 </li>
+		 <li role="presentation">
+					 <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item">My work</a>
+				</li>
+		 <li role="presentation">
+			 <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+     </li>
+   </ul>
+  </nav>
+</header>
+	<!-- start main Body -->
+	<div class= "profile">
+		<!-- Add my image here -->
+		<!--<img src="http://via.placeholder.com/150x150" alt=""> Übung mit alt leer lassen und Placeholder als Bild-->
+		<!-- By leaving the alt attribute empty, you’re telling the screen reader that the image is for layout purposes only.-->
+		<img src = " img/M.Sharifi.png " class="profile__portrait" alt="M.Sharifi portrait alt=" width="250" height="200">
+<div class="profile__text">
+		<h1>Hi There!</h1>
+		<p>
+			My Name is M.SHARIFI. I am a <span>web</span> developer student from NETHERLAND.
+		</p>
+		<!-- hashtag is a placeholder for the link -->
+		<a href="#">Check out some of my code</a> <br>
+
+		<a href="#">Default Link</a>
+		<br>
+	  <button type="button">Default Button</button>
+
+	  <button class="button__secondary">Secondary Button</button>
+	 <!-- Test zu designen von Links und Buttons Stelle?-->
+
+ </div>
+
+ </div>
+	<!-- Footer -->
+	<footer class="page-footer">
+		<p>Find me on</p>
+	<div class="social-media">
+		<a href="https://github.com" target="_blank"><img src="img/github.svg" class="github-logo" alt="Github"></a>
+		<a href="https://twitter.com" target="_blank"><img src="img/Twitter.svg" class="twitter-logo" alt="Twitter"></a>
+		<a href="https://www.linkedin.com" target="_blank"><img src="img/LinkedIn.svg" class="linkedin-logo" alt="LinkedIn"></a>
+  </div>
+	</footer>
+
+	<script src="js/tota11y.min.js"></script>
+
+
+</body>
+</html>
